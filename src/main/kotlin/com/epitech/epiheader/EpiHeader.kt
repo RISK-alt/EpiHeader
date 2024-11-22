@@ -27,7 +27,7 @@ class EpiHeader : AnAction() {
                     
                     """.trimIndent()
         }.plus(
-            listOf("makefile", "py").associateWith {
+            listOf("makefile", "py", ".gitignore").associateWith {
                 """
                     ##
                     ## EPITECH PROJECT, %d
